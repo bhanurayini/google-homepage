@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href= "style.css" rel= "stylesheet" type = "text/css">
-<div id = "g_img">
-<img src = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-</div>
+	<link href= "style.css" rel= "stylesheet" type = "text/css">
+		
 </head>
+
 <body>
 
+	
+<div id = "top_nbar">	
+	<ul>
+		<li><a href= "https://www.gmail.com">Mail</li>
+		<li><a href= "https://www.gmail.com">Images</li>
+		<li><a href= "#"><img src="img/app_options.png" id= "options_img"></a></li>
+		<li><a href= "#"><img src="img/notifications.png"id="notifications_img"></a></li>
+		<li><a id = "sign_in" href ="#">Sign In</a></li>
+		
+	</ul>
+</div>
+
+<div id = "g_img">
+	<center>
+		<img src = "img/logo.png" id = "logo_img">
+	</center>
+</div>
+	
 <div class = "search">
-
-<form action = "/search" id= "f" method= "get">
-<div class = "help">
-<input id= "q" aria-hidden = "true";>
-</div>
-</form>
-
-</div>
+		<center>
+			<form action = "/search" id= "f" method= "get">
+				<input id= "q" aria-hidden = "true";>
+				
+			</form>
+		</center>
+		<center>
+			<button class= "s_button">Google Search</button>
+			<button class= "s_button">I'm feeling lucky</button>
+		</center>
+	</div>
 
 </body>
 </html>
