@@ -76,6 +76,30 @@ li{
 	opacity:.55;
 }
 
+#f_bar{
+	background:rgb(228,228,228);
+	bottom:0;
+	display:inline;
+	border-top: 1px solid rgb(228,228,228);
+	min-width:980px;
+	line-height:40px;
+	position:absolute;
+	width:100%;
+	margin-left: -8px;
+}
+
+#l_ele{
+	margin-left:30px;
+	white-space: no wrap;
+}
+
+#r_ele{
+	margin-right:30px;
+	float:right;
+	white-space: no wrap;
+}
+
+
 .s_button{
 	border: 1px solid rgb(242,242,242);
 	font-family: arial;
