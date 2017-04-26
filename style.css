@@ -9,7 +9,7 @@ center{
 	width:525px;
 	border-radius:2px;
 	box-shadow: 0 1px 1px gray;
-	}
+}
 
 #logo_image{
 	height:92px;
@@ -25,13 +25,18 @@ center{
 	padding: 0 8px;
 	position: absolute;
 	width:100%;
-	}
+}
 
 a{
 	text-decoration: none;
 	color:black;
 	font-family: arial;
-	}
+ }
+
+a:hover{
+	opacity: .85;
+	text-decoration: underline;
+}
 	
 ul{
 	list-style-type: none;
